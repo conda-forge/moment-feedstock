@@ -1,6 +1,6 @@
 {% set name = "moment" %}
-{% set version = "2.19.1" %}
-{% set sha256 = "956d30f6d6fec7ea828b54d9cc901ad4150d2cbe3413c99e72a225b4d5e1065f" %}
+{% set version = "2.21.0" %}
+{% set sha256 = "7a5443ce70ad5807215e2bc8fdf620f4fcaeb24e78631b8166697001f46da886" %}
 
 package:
   name: {{ name|lower }}
