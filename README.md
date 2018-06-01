@@ -15,12 +15,15 @@ A lightweight JavaScript date library for parsing, validating, manipulating, and
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/moment-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/moment-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/moment-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/moment-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/moment/badges/version.svg)](https://anaconda.org/conda-forge/moment)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/moment/badges/downloads.svg)](https://anaconda.org/conda-forge/moment)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-moment-green.svg)](https://anaconda.org/conda-forge/moment) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/moment.svg)](https://anaconda.org/conda-forge/moment) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/moment.svg)](https://anaconda.org/conda-forge/moment) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/moment.svg)](https://anaconda.org/conda-forge/moment) |
 
 Installing moment
 =================
