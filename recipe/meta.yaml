@@ -1,6 +1,6 @@
 {% set name = "moment" %}
-{% set version = "2.24.0" %}
-{% set sha256 = "6159b769f2baa97e1ddbd172cc88d7726ca6c631155a54d98a40a007700ea780" %}
+{% set version = "2.25.2" %}
+{% set sha256 = "ff7a476eb8344f04493ef3ec13dd125a787b2684017b6022eeb95f24ff812093" %}
 
 package:
   name: {{ name|lower }}
@@ -20,20 +20,20 @@ build:
 requirements:
   build:
     - nodejs
-  
+
 test:
   commands:
     - npm list -g moment
   requires:
     - nodejs
-   
+
 
 about:
   home: https://github.com/moment/moment
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'Parse, validate, manipulate, and display dates in javascript.'
+  summary: Parse, validate, manipulate, and display dates in javascript.
   description: |
     A lightweight JavaScript date library for parsing, validating, manipulating, and formatting dates.   
   doc_url: http://momentjs.com/docs/
